@@ -37,6 +37,6 @@ main {
 }
 
 header{
-	position: fixed;
+	position-y: fixed;
 }
 
