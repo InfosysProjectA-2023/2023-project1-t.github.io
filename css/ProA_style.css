@@ -37,6 +37,7 @@ main {
 }
 
 header{
+	width:100%
 	position-y: fixed;
 }
 
