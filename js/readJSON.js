@@ -56,7 +56,7 @@ window.onload = function onLoad() {
 				//<img id="thumnail_img">タグのsrcの値をサムネイル画像のファイルに設定（photosフォルダに”画像名_thum.jpg”がある必要がある）
 				let thumnail_img = document.getElementById("thumnail_img");
 				if(thumnail_img != null){
-					thumnail_img.setAttribute("src","./photos/"+obj.image_file+"_thum.jpg");
+					thumnail_img.setAttribute("src","./photos/"+obj.image_file+".jpg");
 				}
 
 				let abstract_text = document.getElementById("abstract");
