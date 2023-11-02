@@ -1,8 +1,8 @@
 window.onload = function onLoad() {
-	//const loadingMessage = document.getElementById('loading'); // "loading"要素を取得
-    //if (loadingMessage) {
-        //loadingMessage.style.display = 'none'; // ロードが完了したら非表示にする
-    //}
+	const loadingMessage = document.getElementById('loading'); // "loading"要素を取得
+    if (loadingMessage) {
+        loadingMessage.style.display = 'none'; // ロードが完了したら非表示にする
+    }
 
 	//呼び出された際のURLパラメータの解析（.../detail1.html?id=1などのとき，変数名idの値(1)を取り出す）※テンプレートの時点では使っていない
 	const urlParam = function(name){
