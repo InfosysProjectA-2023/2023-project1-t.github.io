@@ -88,6 +88,34 @@ window.onload = function onLoad() {
 						image_list.innerHTML += '<a href="./photos/'+obj.image_file3+'.jpg" data-lightbox="image-list">';
 						image_list.innerHTML += '<img src="./photos/'+obj.image_file3+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
 					}
+					if(obj.image_file4 != null && obj.image_file4!=""){
+						image_list.innerHTML += '<a href="./photos/'+obj.image_file4+'.jpg" data-lightbox="image-list">';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file4+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
+					}
+					if(obj.image_file5 != null && obj.image_file5!=""){
+						image_list.innerHTML += '<a href="./photos/'+obj.image_file5+'.jpg" data-lightbox="image-list">';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file5+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
+					}
+					if(obj.image_file6 != null && obj.image_file6!=""){
+						image_list.innerHTML += '<a href="./photos/'+obj.image_file6+'.jpg" data-lightbox="image-list">';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file6+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
+					}
+					if(obj.image_file7 != null && obj.image_file7!=""){
+						image_list.innerHTML += '<a href="./photos/'+obj.image_file7+'.jpg" data-lightbox="image-list">';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file7+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
+					}
+					if(obj.image_file8 != null && obj.image_file8!=""){
+						image_list.innerHTML += '<a href="./photos/'+obj.image_file8+'.jpg" data-lightbox="image-list">';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file8+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
+					}
+					if(obj.image_file9 != null && obj.image_file9!=""){
+						image_list.innerHTML += '<a href="./photos/'+obj.image_file9+'.jpg" data-lightbox="image-list">';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file9+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
+					}
+					if(obj.image_file10 != null && obj.image_file10!=""){
+						image_list.innerHTML += '<a href="./photos/'+obj.image_file10+'.jpg" data-lightbox="image-list">';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file10+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
+					}
 				 }
 
 				let star_ratings = document.getElementsByClassName("star-rating");
