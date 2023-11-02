@@ -1,8 +1,3 @@
-// loadingのdivを取得
-var loading = document.getElementById('loading');
-// contentsのdivを取得
-var contents = document.getElementById('contents');
-
 window.onload = function onLoad() {
 
 		//呼び出された際のURLパラメータの解析（.../detail1.html?id=1などのとき，変数名idの値(1)を取り出す）※テンプレートの時点では使っていない
@@ -15,8 +10,6 @@ window.onload = function onLoad() {
 				return 0;
 			}
 		};
-
-		loading.style.display = 'none';//ロードのくるくるを消す
 		//const json_url = "https://athena.abe-lab.jp/~hidenao/ProA_2023/Project1_example/data.json";//
 		// data.jsonでの動作が確認できたら，↑の行をコメント（//を先頭に付ける）して，↓の行のコメント//を外す
 		const json_url = "https://infosysprojecta-2023.github.io/2023-project1-t.github.io//data.json";
