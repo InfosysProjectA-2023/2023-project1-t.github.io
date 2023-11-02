@@ -76,17 +76,17 @@ window.onload = function onLoad() {
 					//各画像ファイルを「追加の画像」としてlightbox2のリストとして<img>タグを追加していく
 					if(obj.image_file1 != null && obj.image_file1!=""){
 						image_list.innerHTML += '<a href="./photos/'+obj.image_file1+'.jpg" data-lightbox="image-list">';
-						image_list.innerHTML += '<img src="./photos/'+obj.image_file1+'_.jpg" class="col-3 mb-5 box-shadow"/></a>';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file1+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
 					}
 
 					if(obj.image_file2 != null && obj.image_file2!=""){
 						image_list.innerHTML += '<a href="./photos/'+obj.image_file2+'.jpg" data-lightbox="image-list">';
-						image_list.innerHTML += '<img src="./photos/'+obj.image_file2+'_.jpg" class="col-3 mb-5 box-shadow"/></a>';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file2+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
 					}
 
 					if(obj.image_file3 != null && obj.image_file3!=""){
 						image_list.innerHTML += '<a href="./photos/'+obj.image_file3+'.jpg" data-lightbox="image-list">';
-						image_list.innerHTML += '<img src="./photos/'+obj.image_file3+'_.jpg" class="col-3 mb-5 box-shadow"/></a>';
+						image_list.innerHTML += '<img src="./photos/'+obj.image_file3+'.jpg" class="col-3 mb-5 box-shadow"/></a>';
 					}
 				 }
 
