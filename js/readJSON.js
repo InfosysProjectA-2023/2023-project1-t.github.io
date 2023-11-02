@@ -16,7 +16,7 @@ window.onload = function onLoad() {
 			}
 		};
 
-		contents.classList.remove('hidden');//ロードのくるくるを消す
+		loading.style.display = 'none';//ロードのくるくるを消す
 		//const json_url = "https://athena.abe-lab.jp/~hidenao/ProA_2023/Project1_example/data.json";//
 		// data.jsonでの動作が確認できたら，↑の行をコメント（//を先頭に付ける）して，↓の行のコメント//を外す
 		const json_url = "https://infosysprojecta-2023.github.io/2023-project1-t.github.io//data.json";
