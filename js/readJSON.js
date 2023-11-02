@@ -1,23 +1,8 @@
 window.onload = function onLoad() {
-	const loadingMessage = document.createElement('div');
-    loadingMessage.innerText = 'Loading...';
-    document.body.appendChild(loadingMessage);
-
-    // ...
-
-    const fetch_json = async (url) => {
-        try {
-            // JSONデータのフェッチ
-            
-           
-const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const data = await response.json();
-            // ロード中のメッセージを非表示にする
-            loadingMessage.style.display = 'none';
-
+	const loadingMessage = document.getElementById('loading'); // "loading"要素を取得
+    if (loadingMessage) {
+        loadingMessage.style.display = 'none'; // ロードが完了したら非表示にする
+    }
 		//呼び出された際のURLパラメータの解析（.../detail1.html?id=1などのとき，変数名idの値(1)を取り出す）※テンプレートの時点では使っていない
 		const urlParam = function(name){
 			let results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
