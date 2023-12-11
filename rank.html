@@ -26,7 +26,7 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
       <div class="container-lg">
-        <a class="navbar-brand" href="./genre.html">ProA 2023</a><!-- hrefのリンク先やテキストの部分は各チームで修正すること -->
+        <a class="navbar-brand" href="./index.html">ProA 2023</a><!-- hrefのリンク先やテキストの部分は各チームで修正すること -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ProA2022">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,11 +42,11 @@
               <a class="nav-link active">表示方法</a><!-- hrefのリンク先は各チームで修正すること -->
             </li>
             <li class="nav-item dropdown"><!-- カテゴリ別のメニュー項目を作る場合などに利用する．なお，hrefのリンク先は各チームで修正すること -->
-              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ジャンル別</a>
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">地域別</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./index.html">地域別</a></li>
                 <li><a class="dropdown-item" href="./genre.html">ジャンル別</a></li>
-                <li><a class="dropdown-item" href="./rank.html">評価別</a></li>
+                <li><a class="dropdown-item" href="./genre.html">評価別</a></li>
                 <!-- 適宜，カテゴリ内のページがあれば，個々に項目を追加（あるいは，削除）-->
               </ul>
             </li>
@@ -63,8 +63,6 @@
   </header>
 
   <main role="main" class="pt-5">
-	  <input type="hidden" id="obj_id" value="0"><!-- このid="obj_id"のタグのvalueの値で指定する順番の施設紹介とする（最初は0番目） -->
-	  <!-- ページの見出し -->
     <div class="p-3 p-sm-5 mb-4 bg-img bg-head">
       <div class="container">
         <h1 class="display-4" id="top-title">家族で楽しめる公園まとめin関東</h1>
@@ -72,26 +70,31 @@
       </div>
     </div>
     <div class="container">
-      <h3 class="pl-3">アスレチック</h3>
-      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=0" role="button">笠間芸術の森公園</a>
+      <h3 class="pl-3">茨城県</h3>
+      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=0" role="button">笠間芸術の森公園</a><!--test-->
+      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=1" role="button">ひたち海浜公園</a>
+      <h3 class="pl-3"> </h3>
+      <h3 class="pl-3">神奈川県</h3>
       <a class="btn btn-outline-primary btn-lg" href="./park.html?id=2" role="button">市立相模原麻溝公園</a>
       <a class="btn btn-outline-primary btn-lg" href="./park.html?id=3" role="button">長井海の手公園 ソレイユの丘</a>
+      <h3 class="pl-3"> </h3>
+      <h3 class="pl-3">千葉県</h3>
       <a class="btn btn-outline-primary btn-lg" href="park.html?id=4" role="button">千葉こどもの国 キッズダム</a>
+      <h3 class="pl-3"> </h3>
+      <h3 class="pl-3">群馬県</h3>
+      <a class="btn btn-outline-primary btn-lg" href="park.html?id=5" role="button">境ふれあいパーク 境児童館どんぐり</a>
+      <h3 class="pl-3"> </h3>
+      <h3 class="pl-3">埼玉県</h3>
       <a class="btn btn-outline-primary btn-lg" href="./park.html?id=6" role="button">川口市立グリーンセンター</a>
       <a class="btn btn-outline-primary btn-lg" href="./park.html?id=7" role="button">国営武蔵丘陵森林公園</a>
-      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=9" role="button">殿入中央公園</a>
-      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=11" role="button">那須野が原公園</a>
       <h3 class="pl-3"> </h3>
-      <h3 class="pl-3">サイトシーイング</h3>
-      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=1" role="button">ひたち海浜公園</a>
-      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=2" role="button">市立相模原麻溝公園</a>
-      <a class="btn btn-outline-primary btn-lg" href="park.html?id=5" role="button">境ふれあいパーク 境児童館どんぐり</a>
-      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=7" role="button">国営武蔵丘陵森林公園</a>
+      <h3 class="pl-3">東京都</h3>
       <a class="btn btn-outline-primary btn-lg" href="./park.html?id=8" role="button">葛西臨海公園</a>
-      <h3 class="pl-3"> </h3>
-      <h3 class="pl-3">タイヤ</h3>
+      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=9" role="button">殿入中央公園</a>
       <a class="btn btn-outline-primary btn-lg" href="./park.html?id=10" role="button">西六郷公園</a>
       <h3 class="pl-3"> </h3>
+      <h3 class="pl-3">栃木県</h3>
+      <a class="btn btn-outline-primary btn-lg" href="./park.html?id=11" role="button">那須野が原公園</a>
     </div>
   </main>
 
